@@ -1,0 +1,8 @@
+export { default as YouTubeIcon } from "./socialLogos/youtube.svg?react"
+export { default as XIcon } from "./socialLogos/x.svg?react"
+export { default as InstagramIcon } from "./socialLogos/instagram.svg?react"
+export { default as TelegramIcon } from "./socialLogos/telegram.svg?react"
+export { default as TikTokIcon } from "./socialLogos/tiktok.svg?react"
+export { default as VKIcon } from "./socialLogos/vk.svg?react"
+export { default as UpIcon } from "./icons/up.svg?react"
+export { default as DownIcon } from "./icons/down.svg?react"

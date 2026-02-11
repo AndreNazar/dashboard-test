@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "GoogleSans";
+  src: url("../public/GoogleSans.woff2");
+}
+
+:root {
+
+  font-family: "GoogleSans";
+  color: rgba(8, 8, 8, 0.87);
+  background-color: #F5F6FA;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  margin: 0;
+}

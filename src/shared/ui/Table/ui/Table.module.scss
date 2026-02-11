@@ -1,0 +1,42 @@
+.table {
+    font-weight: 400;
+
+    .header {
+        display: grid;
+        text-align: center;
+        background-color: #F5F6FA;
+        color: #CACAD8;
+        padding: .7em 1em;
+        gap: 10px;
+        font-size: 14px;
+        border-radius: 10px;
+    }
+
+    .items {
+        margin-top: 1em;
+
+        .row {
+            display: grid;
+            justify-items: space-between;
+            padding: .4em 1em;
+            box-sizing: border-box;
+            gap: 10px;
+
+            .cell {
+                justify-self: center;
+                text-align: center;
+
+                &:first-child {
+                    justify-self: start;
+                    text-align: left;
+                }
+
+                &:last-child {
+                    justify-self: end;
+                    text-align: right;
+                }
+            }
+
+        }
+    }
+}

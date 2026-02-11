@@ -1,0 +1,12 @@
+.container {
+    padding: 1.25em;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 10px;
+
+    svg {
+        display: block;
+        width: 25px;
+        height: 25px;
+    }
+}

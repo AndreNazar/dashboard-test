@@ -1,0 +1,40 @@
+.block {
+    display: grid;
+    grid-template-columns: 75px auto;
+    gap: 10px;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    justify-items: left;
+    align-items: center;
+    align-content: start;
+    box-sizing: border-box;
+    width: 100%;
+    height: fit-content;
+
+    .count {
+        p {
+            margin: 0;
+            color: #231B6E;
+        }
+
+        .number {
+            font-size: 32px;
+            font-weight: 600;
+        }
+
+        .title {
+            color: #AFAECE;
+        }
+    }
+}
+
+.list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    align-content: start;
+    justify-items: center;
+    gap: 20px;
+}
