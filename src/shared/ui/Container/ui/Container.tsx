@@ -1,10 +1,5 @@
-import type { PropsWithChildren, ReactNode } from "react"
+import type { ContainerProps } from "../types"
 import styles from "./Container.module.scss"
-
-type ContainerProps = {
-  title: string
-  feature?: ReactNode
-} & PropsWithChildren
 
 const ContainerComponent = ({ title, feature, children }: ContainerProps) => {
   return (

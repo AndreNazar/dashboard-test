@@ -1,12 +1,6 @@
 import { DownIcon, UpIcon } from "@assets/index"
 import styles from "./PercentValue.module.scss"
-
-type PercentValueProps = {
-  value: number
-  size?: "small" | "medium"
-  position?: "left" | "right"
-  status?: "up" | "down"
-}
+import type { PercentValueProps } from "../types"
 
 const PercentValueComponent = ({ value, size = "medium", position = "left", status = "up" }: PercentValueProps) => {
   return (
