@@ -23,7 +23,7 @@ jobs:
         run: npm run lint
 
       - name: Сборка историй
-        run: npm run test -- --ci
+        run: npm run build-storybook
 
       - name: Сборка проекта
         run: npm run build
