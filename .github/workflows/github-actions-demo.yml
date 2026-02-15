@@ -27,3 +27,6 @@ jobs:
 
       - name: Сборка историй
         run: npm run build-storybook
+
+      - name: Публикация
+        run: npm run deploy
