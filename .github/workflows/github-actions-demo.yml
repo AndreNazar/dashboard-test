@@ -28,10 +28,11 @@ jobs:
       - name: Сборка историй
         run: npm run build-storybook
 
-      - name: Изменение в конфиг гит
+      - name: Регистрация токена
         run: |
-          git config --global user.email "callandrnaz@gmail.com"
-          git config --global user.name "https://github.com/AndreNazar"
+          git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Публикация
         uses: peaceiris/actions-gh-pages@v3
