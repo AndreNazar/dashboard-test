@@ -1,0 +1,1 @@
+import{j as n}from"./jsx-runtime-u17CrQMm.js";const s="_button_1u2d3_1",e={button:s},r=({children:t})=>n.jsx("div",{className:e.button,children:t}),o=r;try{o.displayName="Button",o.__docgenInfo={description:"",displayName:"Button",props:{}}}catch{}export{o as B};
