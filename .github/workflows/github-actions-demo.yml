@@ -1,6 +1,9 @@
-name: GitHub Actions Demo
-run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
+name: Деплой
+run-name: ${{ github.actor }} - тест и деплой
 on: [push]
+
+permissions:
+  contents: write
 jobs:
   init:
     runs-on: ubuntu-latest
